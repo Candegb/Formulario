@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo1.css">
+
+</head>
+<body>
+
+<h1> Formulario de Opiniones </h1>
+
+<h2>¡Puedes dejar tu comentario rellenando este formulario y tu opinión será verificada en nuestra sección de críticas!</h2>
+
+<form action="usuario@dominio.com" method="post">
+	
+<label class="texto">Nombre</label> </br>
+<input type="text" name="nombre" class="largo"> </br>
+
+<label class="texto"> Apellido </label> <br>
+<input type="text" name="apellido" class="largo"> <br>
+
+<label class="texto">Correo Electrónico</label> <br>
+<input type="email" name="correo" class="largo"> <br>
+
+<label class="texto"> Título </label> <br>
+<input type="text" name="titulo" class="largo"> <br>
+
+<label class="texto">Comentario</label> <br>
+<textarea rows="5" cols="10" name="comentario" class="largo"></textarea> <br>
+
+<label class="texto"> Valoración </label> <br>
+
+<input type="checkbox" name="estrellas" value="5">★ 
+<input type="checkbox" name="estrellas" value="4"> ★
+<input type="checkbox" name="estrellas" value="3"> ★
+<input type="checkbox" name="estrellas" value="2"> ★
+<input type="checkbox" name="estrellas" value="1"> ★
+
+</br>
+
+<input type="submit" value="Enviar" class="boton">
+<input type="reset" value="Borrar" class="boton">
+
+
+
+</form>
+
+</body>
+</html>
